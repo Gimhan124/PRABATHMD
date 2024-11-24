@@ -1,5 +1,5 @@
-const BOT_NUMBER = "null"
-const SESSION_ID = ""
+const BOT_NUMBER = "94784141559"
+const SESSION_ID = "PRABATH-MD~1MRDiB7L#MyGQ6L0uPpSC9MfewCnJZ9QoZxbAJTZNvIMADyzJ9Mg"
 
 
 module.exports = {
