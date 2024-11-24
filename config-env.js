@@ -1,5 +1,4 @@
 const envv2 = require('./config-v2')
-var GITHUB_TOKEN;
 var BOT_NUMBER;
 var SESSION_ID;
 
@@ -10,12 +9,6 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 
-const username = fs.readFileSync('github_username.txt', 'utf8').trim()
-if(process.env.GITHUB_AUTH_TOKEN){
-GITHUB_TOKEN = process.env.GITHUB_AUTH_TOKEN
-}else{
-GITHUB_TOKEN = envv2.GITHUB_AUTH_TOKEN
-}
 if(process.env.BOT_NUMBER){
 BOT_NUMBER = process.env.BOT_NUMBER
 }else{
